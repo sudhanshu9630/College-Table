@@ -1,8 +1,9 @@
-# Infinite Scroll Table Implementation
+# College-Table
 
-## Wanna try - [https://cdassignment.netlify.app/](https://cdassignment.netlify.app/)
+## Deployement link - [[sudhanshu-college-table.netlify.app](https://sudhanshu-college-table.netlify.app/)]
 
-This project demonstrates an implementation of an infinite scroll table layout for displaying college data. It includes sorting functionality by collegedunia rating, fees, and user review rating in both ascending and descending orders. Additionally, it provides a search feature to filter colleges by name.
+This project showcases an implementation of an infinite scroll table layout designed for displaying college data. It incorporates sorting functionality based on Collegedunia rating, fees, and user review rating in both ascending and descending orders. Furthermore, it offers a search feature to facilitate filtering colleges by name.
+
 
 ## Table of Contents
 
@@ -13,8 +14,7 @@ This project demonstrates an implementation of an infinite scroll table layout f
 - [Dummy JSON](#dummy-json)
 - [Implementation Details](#implementation-details)
 - [Dependencies](#dependencies)
-- [Screenshots](#screenshots)
-
+- 
 ## Overview
 
 This project creates a table layout to display college data. Initially, it loads 10 rows, and as the user scrolls down, more rows are dynamically loaded into the table, providing an infinite scroll experience. Each row displays information about a college, including its name, featured flag, ratings, fees, and user review rating. Users can sort the table based on collegedunia rating, fees, and user review rating in both ascending and descending orders. Additionally, a search functionality allows users to filter colleges by name.
@@ -30,25 +30,19 @@ This project creates a table layout to display college data. Initially, it loads
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/utkarshgupta04092003/college-list.git
-   ```
-
-2. Navigate to the project directory:
+1. Navigate to the project directory:
 
    ```bash
    cd college-list
    ```
 
-3. Install dependencies:
+2. Install dependencies:
 
    ```bash
    npm install
    ```
 
-4. Start the development server:
+3. Start the development server:
 
    ```bash
    npm run dev
@@ -71,20 +65,3 @@ The project is built using React.js and leverages javascript concepts for infini
 - React.js
 - Vite
 - Other dependencies as specified in the `package.json` file.
-
-## Screenshots
-### Home Page
-![image](https://github.com/utkarshgupta04092003/college-list/assets/63789702/bc4aee71-e0b9-48d1-b097-d3023a68fcb2)
-
-### Sort by fees in ascending order
-![image](https://github.com/utkarshgupta04092003/college-list/assets/63789702/4b3853b3-fa6b-48a7-b83c-ff1d38c3a37a)
-
-### sort by user review in descending order
-![image](https://github.com/utkarshgupta04092003/college-list/assets/63789702/77962b0f-fb62-4a02-9385-868b8af1fd63)
-
-### Infinite Scroll (see the scrollbar)
-![image](https://github.com/utkarshgupta04092003/college-list/assets/63789702/62d6ecb1-ae59-4697-bf4b-24a1a655004d)
-
-
-
-
